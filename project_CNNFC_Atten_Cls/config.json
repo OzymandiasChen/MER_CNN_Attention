@@ -1,0 +1,32 @@
+
+{
+	"ENV" : "UBUNTU",
+	"PROJECT_PATH" : 
+	{
+		"UBUNTU" : "",
+		"SERVER2019" : ""
+	},
+	"HUAWEIEMO_PATH" :
+	{
+		"UBUNTU" : "",
+		"SERVER2019" : ""
+	},
+	"TRAGET_INFO": ["", "", "", "", ""],
+	"MODE": "2D",
+	"MODEL": "ResNet", 
+	"AUDIO_PROCESSING_METHOD": "2205k_2048_512",
+	"SR": 22050, 	
+	"TRAIN_PERCENT": 0.7,
+	"VALID_PERCENT": 0.1,
+	"TEST_PERCENT": 0.2,
+	"SAL0": "None",
+	"CAL1": "Conv",
+	"CAL2": "FC",
+	"LR": 0.000001,
+	"EPOCH_NUM": 512,
+	"TRAIN_BATCH_SIZE": 8,
+	"VALID_BATCH_SIZE": 128,
+	"EARLY_STOPPING_PATIENCE": 30
+}
+
+
